@@ -58,3 +58,6 @@
 47. [heapq --- 堆積佇列 (heap queue)](https://docs.python.org/zh-tw/3/library/heapq.html)
       * Heap 是一棵完全二叉樹，即每一層都被填滿，除了最後一層，最後一層的節點都集中在左邊。這意味著除了最後一層之外，每一層都必須有最多的節點
       * 插入和刪除操作都具有良好的時間複雜度，通常為 O(log n)
+48. [bisect --- 陣列二分演算法 (Array bisection algorithm)](https://docs.python.org/zh-tw/3/library/bisect.html)
+      * 用於操作已排序序列的方法，特別是用於查找和插入元素
+      * 平均情況：O(log n)
